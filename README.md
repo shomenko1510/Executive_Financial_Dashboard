@@ -76,3 +76,25 @@ This page helps management monitor:
 * Profitability trends
 * Expense growth dynamics
 * Operational financial stability
+## Cash Flow Analysis Page
+
+The Cash Flow Analysis page provides detailed insights into cash generation, liquidity management, and the key drivers affecting cash balance movements. It helps users understand how operating performance, working capital changes, and investment activities impact the company's cash position.
+
+### Key Visualizations
+
+* Cash Balance KPI Card
+* Operating Cash Flow KPI Card
+* Cash Balance Trend (Last 5 Years)
+* Cash Flow Bridge Analysis (Waterfall)
+* Operating Cash Flow Drivers (Waterfall)
+* Working Capital Impact Analysis
+* Cash Flow Structure Analysis
+
+The page supports dynamic comparison modes through the **Compare to** slicer:
+
+* Prior Year comparison
+* YTD comparison
+
+Key metrics automatically adjust based on selected Period, Compare to, and Business Direction filters, enabling detailed cash flow performance analysis across different reporting perspectives.
+
+The Cash Flow Bridge Analysis visual explains the movement from Opening Cash Balance to Closing Cash Balance, highlighting the contribution of Operating Cash Flow, CAPEX, and other cash flow components. The Operating Cash Flow Drivers visual decomposes OCF into EBITDA, Working Capital changes, and Income Tax effects.
