@@ -1,5 +1,9 @@
 # Executive Financial Dashboard
 
+<a href="Images/Financial_Summary.png">
+    <img src="Images/Financial_Summary.png" width="900">
+</a>
+
 ## Overview
 
 Executive Financial Dashboard developed in Power BI for manufacturing business analytics.
@@ -10,7 +14,7 @@ The dashboard includes:
 * Revenue & Gross Profit
 * OPEX & EBITDA
 * Cash Flow Analysis
-* KPI Monitoring
+* Executive KPI Dashboard
 
 ## Technologies Used
 
@@ -32,69 +36,160 @@ The dashboard includes:
 
 Serhii Khomenko
 
+## Financial Summary
 
+<a href="Images/Financial_Summary.png">
+    <img src="Images/Financial_Summary.png" width="900">
+</a>
 
-## OPEX & EBITDA Page
+Serves as the executive overview of the company's financial performance by consolidating the most important financial and operational KPIs into a single dashboard. The page provides management with an instant view of profitability, liquidity, cash generation, investment activity, and working capital performance while enabling interactive analysis by reporting period, comparison scenario, and business line.
 
-The OPEX & EBITDA page provides operational profitability analysis and expense monitoring.
+### Interactive Filters
 
-### Key Visualizations
+* **Period** – Selects the reporting period for analysis.
+* **Compare To** – Compares current results against Prior Year or YTD.
+* **Direction** – Filters all visualizations by business line.
 
-* OPEX KPI Card
-* EBITDA KPI Card
-* EBITDA Margin % KPI Card
-* OPEX Trend vs EBITDA Trend (Last 5 Full Years)
-* OPEX Structure Analysis
-* EBITDA Dynamics by Business Direction
-* Comparative Financial Performance Analysis
+### KPI Cards
 
-Each KPI card supports dynamic comparison modes through the **Compare to** slicer:
+* **Revenue** – Total revenue generated during the selected period.
+* **COGS** – Total Cost of Goods Sold.
+* **Gross Profit** – Revenue minus COGS.
+* **Gross Margin %** – Gross profit as a percentage of revenue.
+* **EBITDA** – Operating profit before interest, taxes, depreciation, and amortization.
+* **EBITDA Margin %** – EBITDA expressed as a percentage of revenue.
+* **Net Profit** – Profit after all operating and non-operating expenses.
+* **Net Profit Margin %** – Net profit as a percentage of revenue.
+* **Working Capital** – Net investment in operating current assets.
+* **Operating Cash Flow** – Cash generated from operating activities.
+* **Cash Balance** – Ending cash balance available at the end of the reporting period.
+* **CAPEX** – Capital expenditures invested during the selected period.
 
-* Prior Year comparison
-* YTD Comparison
+### KPI Comparison Panel
 
-Depending on the selected mode, KPI cards automatically compare current results either:
+Each KPI card includes a comparison against **Prior Period** or **Budget**, displaying:
 
-* with the same period of the previous year, or
-* with the previous year Year-to-Date performance.
+* Performance variance (%)
+* Trend indicators (increase/decrease)
+* Comparison period
+* Reference value
 
-
-### Key Features
-
-* Dynamic Prior Year and YTD comparison
-* Financial trend analysis for the last 5 years
-* Conditional formatting with KPI indicators
-* Interactive slicers and filtering
-* Executive-level dashboard design
+This enables users to quickly evaluate performance against historical results or business targets.
 
 ### Business Value
 
-This page helps management monitor:
+Provides executives with a single source of truth for monitoring financial performance and business health. The dashboard enables rapid identification of performance deviations, supports strategic and operational decision-making, and serves as the starting point for deeper analysis in the Revenue & Gross Profit, OPEX & EBITDA, Cash Flow Analysis, and KPI Monitoring pages.
 
-* Operating cost efficiency
-* EBITDA performance
-* Profitability trends
-* Expense growth dynamics
-* Operational financial stability
-## Cash Flow Analysis Page
 
-The Cash Flow Analysis page provides detailed insights into cash generation, liquidity management, and the key drivers affecting cash balance movements. It helps users understand how operating performance, working capital changes, and investment activities impact the company's cash position.
+## Revenue & Gross Profit
 
-### Key Visualizations
+<a href="Images/Revenue_&_GP.png">
+    <img src="Images/Revenue_&_GP.png" width="900">
+</a> 
+Analyzes revenue growth and gross profitability across the business. This page helps users evaluate sales performance, cost efficiency, and profitability trends across different business lines.
 
-* Cash Balance KPI Card
-* Operating Cash Flow KPI Card
-* Cash Balance Trend (Last 5 Years)
-* Cash Flow Bridge Analysis (Waterfall)
-* Operating Cash Flow Drivers (Waterfall)
-* Working Capital Impact Analysis
-* Cash Flow Structure Analysis
+### Visualizations
 
-The page supports dynamic comparison modes through the **Compare to** slicer:
+* **Revenue KPI** – Displays total revenue for the selected reporting period.
 
-* Prior Year comparison
-* YTD comparison
+* **COGS KPI** – Shows the total Cost of Goods Sold.
 
-Key metrics automatically adjust based on selected Period, Compare to, and Business Direction filters, enabling detailed cash flow performance analysis across different reporting perspectives.
+* **Gross Profit KPI** – Displays gross profit calculated as Revenue minus COGS.
 
-The Cash Flow Bridge Analysis visual explains the movement from Opening Cash Balance to Closing Cash Balance, highlighting the contribution of Operating Cash Flow, CAPEX, and other cash flow components. The Operating Cash Flow Drivers visual decomposes OCF into EBITDA, Working Capital changes, and Income Tax effects.
+* **Gross Margin % KPI** – Shows gross profitability as a percentage of revenue.
+
+* **Revenue and COGS (Last 5 Years)** – Compares revenue and COGS trends over the last five full years to evaluate long-term business growth and cost dynamics.
+
+* **Gross Margin % (Last 5 Years)** – Displays gross margin by business line across multiple years, enabling comparison of profitability trends.
+
+* **Revenue by Direction** – Ranks business lines based on their contribution to total revenue.
+
+* **Revenue → COGS → Gross Profit** – Waterfall chart illustrating how revenue is transformed into gross profit after deducting the cost of goods sold.
+
+* **Gross Profit by Direction** – Compares gross profit generated by each business line to identify the most profitable business segments.
+
+### Business Value
+
+Enables management to monitor revenue growth, evaluate gross profitability, compare business line performance, and identify the key drivers of financial results. The dashboard supports strategic decision-making related to pricing, product mix, and operational efficiency.
+
+## OPEX & EBITDA
+
+<a href="Images/OPEX_&_EBITDA.png">
+    <img src="Images/OPEX_&_EBITDA.png" width="900">
+</a>
+Analyzes operating expenses and EBITDA performance to help evaluate cost efficiency, operational profitability, and the key drivers influencing earnings. The page supports comparison across reporting periods and business lines.
+
+### Visualizations
+
+* **OPEX KPI** – Displays total operating expenses for the selected reporting period.
+
+* **EBITDA KPI** – Shows EBITDA, representing operating profitability before interest, taxes, depreciation, and amortization.
+
+* **EBITDA Margin % KPI** – Displays EBITDA as a percentage of revenue, measuring operational profitability.
+
+* **OPEX & EBITDA (Last 5 Years)** – Compares long-term trends of operating expenses and EBITDA to evaluate cost control and profitability over time.
+
+* **EBITDA Change Analysis** – Waterfall chart illustrating the factors driving the change in EBITDA, including revenue growth, COGS, OPEX, and other operational impacts.
+
+* **OPEX Structure by Subcategory** – Breaks down operating expenses by subcategory, allowing users to analyze cost composition and identify major expense drivers.
+
+* **EBITDA by Direction** – Shows the contribution of each business line to total EBITDA, highlighting the most profitable business segments.
+
+### Business Value
+
+Provides management with a comprehensive view of operating cost efficiency and profitability. The dashboard helps identify expense optimization opportunities, evaluate EBITDA drivers, monitor profitability trends, and support operational and strategic decision-making.
+
+## Cash Flow Analysis
+
+<a href="Images/Cash_Flow_Analysis.png">
+    <img src="Images/Cash_Flow_Analysis.png" width="900">
+</a>
+
+Provides a comprehensive analysis of the company's cash flow position by monitoring cash balance, operating cash flow, and the key factors influencing cash generation. The dashboard helps users evaluate liquidity, understand cash flow drivers, and support financial planning.
+
+### Visualizations
+
+* **Cash Balance KPI** – Displays the ending cash balance for the selected reporting period.
+
+* **Operating Cash Flow KPI** – Shows cash generated from operating activities.
+
+* **Cash Balance Trend (Last 5 Years)** – Visualizes the historical cash balance trend over the last five years, helping identify long-term liquidity patterns.
+
+* **Working Capital Analysis** – Displays changes in Inventory, Accounts Receivable, and Accounts Payable together with their impact on operating cash flow.
+
+* **Cash Flow Bridge Analysis** – Waterfall chart illustrating how Opening Cash, Operating Cash Flow, Investing Cash Flow, and Financing Cash Flow contribute to the Ending Cash Balance.
+
+* **Operating Cash Flow Drivers** – Waterfall chart explaining how EBITDA, changes in Working Capital components, and Income Tax affect Operating Cash Flow.
+
+### Business Value
+
+Helps management monitor liquidity, understand the key drivers of cash generation, evaluate the impact of working capital on cash flow, and support investment, financing, and operational decision-making.
+
+## Executive KPI Dashboard
+
+<a href="Images/Executive_KPI_Dashboard.png">
+    <img src="Images/Financial_Summary.png" width="900">
+</a>
+
+Provides a consolidated view of key financial performance indicators, profitability metrics, liquidity ratios, solvency measures, and working capital efficiency. The page enables management to monitor overall business health and quickly identify areas requiring attention.
+
+### Visualizations
+
+* **EBITDA Margin % KPI** – Displays EBITDA as a percentage of revenue, measuring operating profitability.
+
+* **Gross Margin % KPI** – Shows gross profitability as a percentage of revenue.
+
+* **Cash Conversion Ratio % KPI** – Measures the company's ability to convert operating cash flow into revenue.
+
+* **Debt & Solvency Overview** – Monitors key liquidity and solvency ratios, including Net Debt / EBITDA, Debt to Equity, Debt Ratio, Current Ratio, Cash Flow to Debt, and Net Debt to Equity. Status indicators provide a quick assessment against predefined benchmarks.
+
+* **CCC Waterfall Value by Driver** – Waterfall chart illustrating how Days Sales Outstanding (DSO), Days Inventory Outstanding (DIO), and Days Payables Outstanding (DPO) contribute to changes in the Cash Conversion Cycle (CCC).
+
+* **Working Capital KPI Matrix** – Displays the current values and period-over-period changes for DSO, DIO, DPO, and CCC, helping monitor working capital efficiency.
+
+* **EBITDA Margin Trend %** – Shows the historical trend of EBITDA Margin, enabling users to monitor long-term profitability performance.
+
+### Business Value
+
+Supports executive decision-making by providing a comprehensive overview of financial health, operational efficiency, liquidity, leverage, and working capital performance. The dashboard enables early identification of financial risks, tracks KPI trends against targets, and helps management focus on the key drivers of sustainable business performance.
+
