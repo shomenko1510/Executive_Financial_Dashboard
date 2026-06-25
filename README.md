@@ -168,7 +168,7 @@ Helps management monitor liquidity, understand the key drivers of cash generatio
 ## Executive KPI Dashboard
 
 <a href="Images/Executive_KPI_Dashboard.png">
-    <img src="Images/Financial_Summary.png" width="900">
+    <img src="Images/Executive_KPI_Dashboard.png" width="900">
 </a>
 
 Provides a consolidated view of key financial performance indicators, profitability metrics, liquidity ratios, solvency measures, and working capital efficiency. The page enables management to monitor overall business health and quickly identify areas requiring attention.
